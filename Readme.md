@@ -20,8 +20,7 @@ Precision Optimization: I utilized Isoration Forest and Randomized search to dis
 | **Channel** | Medium used (ATM, Online Branch) | Low |
 
 ## Technical Methodology 
-1. ###Explanatory Data Analysis(EDA)
-Our EDa revealed an 
+1. ### Explanatory Data Analysis(EDA)
 
 2. ### Feature Engineering 
 ! moved beyond raw data by creating 'behavioural signature':
