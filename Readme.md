@@ -2,14 +2,16 @@
 ## Overview 
 In this project I implemented  an unsupervised machine learaning pipeline that identifies fraudulent or suspicious banking transactions. By shifting shifting a range 0f 0.01% - 0.06% contamination threshold to a statistically optimised 1%(26 high-priority cases), the model minimizes false positives and provides actionable leads for fraud investigations.
 
-## Project Objectives 
-Identifying sophisticated Fraud: Identifying non-obvious patterns like account draining and high-velocity transactions that might be a result of bolt-like behaviour.
+## Project Objectives
+
+To identify sophisticated fraud it involved : 
+Identifying non-obvious patterns like account draining and high-velocity transactions that might be a result of bolt-like behaviour.
 
 Temporal Risk Auditing: I analysed those transactions that occur less than 5 minutes that might be automated bot scripts rather than legitimate human transaction.
 
 Precision Optimization: I utilized Isoration Forest and Randomized search to distinguish 26 anomalous transactions that are statistically significant. 
 
-##Data Dictionary 
+## Data Dictionary 
 | Feature | Description | Importance |
 | :--- | :--- | :--- |
 | **TransactionAmount** | Raw transfer value of transfer/withdrawal. | **High** |
