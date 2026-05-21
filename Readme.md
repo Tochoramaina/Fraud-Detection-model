@@ -1,10 +1,10 @@
 # Banking Fraud Detection
 ## Overview 
-In this project I implemented  an unsupervised machine learaning pipeline that identifies fraudulent or suspicious banking transactions. By shifting shifting a range 0f 0.01% - 0.06% contamination threshold to a statistically optimised 1%(26 high-priority cases), the model minimizes false positives and provides actionable leads for fraud investigations.
+In this project, I implemented  an unsupervised machine learning pipeline that identifies fraudulent or suspicious banking transactions. By shifting a range 0f 0.01% - 0.06% contamination threshold to a statistically optimised 1%(26 high-priority cases), the model minimizes false positives and provides actionable leads for fraud investigations.
 
 ## Project Objectives
 
-To identify sophisticated fraud it involved : 
+To identify sophisticated fraud it involves : 
 Identifying non-obvious patterns like account draining and high-velocity transactions that might be a result of bolt-like behaviour.
 
 Temporal Risk Auditing: I analysed those transactions that occur less than 5 minutes that might be automated bot scripts rather than legitimate human transaction.
